@@ -35,3 +35,62 @@ img {
     margin-top: 12px;
     color: rgb(155, 159, 167);
 }
+
+/*new style*/
+
+.title {
+    height: 50px;
+    width: 380px;
+    background-color: white;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(98, 98, 118);
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0px;
+}
+
+.stat-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.item {
+    margin: 0px;
+    list-style-type: none;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    padding-top: 12px;
+}
+
+#id-1 {
+    background-color: rgb(57, 179, 255);
+    width: 76px;
+    height: 60px;
+}
+
+#id-2 {
+    background-color: rgb(255, 57, 57);
+    width: 76px;
+}
+
+#id-3 {
+    background-color: rgb(178, 46, 255);
+    width: 76px;
+}
+
+#id-4 {
+    background-color: rgb(41, 205, 197);
+    width: 76px;
+}
+
+#id-5 {
+    background-color: rgb(238, 197, 51);
+    width: 76px;
+}
+
+.label {
+    font-size: smaller;
+}
