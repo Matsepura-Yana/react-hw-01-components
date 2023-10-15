@@ -1,0 +1,31 @@
+.description {
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    background-color: rgb(247, 247, 247);
+    padding: 15px;
+}
+
+img {
+    height: 150px;
+    border-radius: 100px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(16, 19, 25);
+    margin-bottom: 0px;
+}
+
+.tag {
+    font-size: 15px;
+    margin-top: 12px;
+    color: rgb(155, 159, 167);
+}
+
+.location {
+    font-size: 15px;
+    margin-top: 12px;
+    color: rgb(155, 159, 167);
+}

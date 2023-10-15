@@ -1,0 +1,30 @@
+.id-1 {
+    background-color: rgb(57, 179, 255);
+    width: 76px;
+    height: 60px;
+}
+.id-2 {
+    background-color: rgb(255, 57, 57);
+    width: 76px;
+}
+
+.id-3 {
+    background-color: rgb(178, 46, 255);
+    width: 76px;
+}
+
+.id-4 {
+    background-color: rgb(41, 205, 197);
+    width: 76px;
+}
+
+.id-5 {
+    background-color: rgb(238, 197, 51);
+    width: 76px;
+}
+
+.statList {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}

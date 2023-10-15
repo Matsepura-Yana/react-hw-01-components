@@ -1,9 +1,10 @@
 import { StatList } from 'StatList'
+import css from './statistics.module.css'
 
 export const Statistics = ({ data }) => {
     return (
-        <section class="statistics">
-            <h2 class="title">Upload stats</h2>
+        <section className={css.statistics}>
+            <h2 className={css.title}>Upload stats</h2>
             <StatList data={data} />
         </section>
     )

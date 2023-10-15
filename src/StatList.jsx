@@ -1,13 +1,12 @@
 import { StatItem } from 'StatItem'
+import css from './statList.module.css'
 
 export const StatList = ({ data }) => {
     return (
-        <ul class="stat-list">
-            <StatItem data={data[0]} />
-            <StatItem data={data[1]} />
-            <StatItem data={data[2]} />
-            <StatItem data={data[3]} />
-            <StatItem data={data[4]} />
+        <ul className={css.statList}>
+            {data.map(el => {
+                return <StatItem data={el} />
+            })}
         </ul>
     )
 }
